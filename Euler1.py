@@ -4,4 +4,3 @@ def multiples3or5(number):
         if i % 3 == 0 or i % 5 == 0:
             total += i
     return total
-

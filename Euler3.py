@@ -12,6 +12,3 @@ def largest_prime_factor(number):
 
     if factor >= 2:
         return factor
-
-
-print(largest_prime_factor(600851475143))
