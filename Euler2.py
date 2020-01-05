@@ -1,4 +1,4 @@
-def evenfibonacchinumbers(number):
+def evenfibonacchinumberssum(number):
 
     fibarr = [1, 2]
     fibsum = 0
@@ -8,4 +8,4 @@ def evenfibonacchinumbers(number):
         if fibarr[1] % 2 == 0:
             fibsum += fibarr[1]
 
-    print("Total sum: ", fibarr[1])
+    return fibarr[1]
