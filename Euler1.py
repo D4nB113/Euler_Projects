@@ -1,7 +1,7 @@
-total = 0
+def multiples3or5(number):
+    total = 0
+    for i in range(number):
+        if i % 3 == 0 or i % 5 == 0:
+            total += i
+    return total
 
-for i in range(1000):
-    if i % 3 == 0 or i % 5 == 0:
-        total += i
-
-print(total)
