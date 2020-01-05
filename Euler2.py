@@ -1,10 +1,11 @@
-fibArr = [1, 2]
+def evenfibonacchinumbers(number):
 
-fibSum = 0
+    fibarr = [1, 2]
+    fibsum = 0
 
-while fibSum < 4000000:
-    fibArr[0], fibArr[1] = fibArr[1], fibArr[0] + fibArr[1]
-    if fibArr[1] % 2 == 0:
-        fibSum += fibArr[1]
+    while fibsum < number:
+        fibarr[0], fibarr[1] = fibarr[1], fibarr[0] + fibarr[1]
+        if fibarr[1] % 2 == 0:
+            fibsum += fibarr[1]
 
-print("Total sum: ", fibArr[1])
+    print("Total sum: ", fibarr[1])
